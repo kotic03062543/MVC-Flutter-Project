@@ -60,7 +60,7 @@ class _NewsItemState extends State<NewsItem> {
                             '${widget.newslist!.articles![widget.index].description}',
                             softWrap: true,
                             overflow: TextOverflow.ellipsis,
-                            maxLines: 3,
+                            maxLines: 2,
                             style: TextStyle(
                               fontSize: 14,
                             ),
